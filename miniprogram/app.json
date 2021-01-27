@@ -12,14 +12,51 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room"
+    "pages/im/room/room",
+    "pages/demo",
+    "pages/demo/demo",
+    "pages/delivery/delivery"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFD700",
+    "navigationBarTitleText": "橙子哥跑腿",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#219bf3",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#e0e0e0",
+    "color": "#444",
+    "selectedColor": "#219bf3",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "取外卖",
+        "iconPath": "Image/food.jpg",
+        "selectedIconPath": "Image/food.jpg"
+      },
+      {
+        "pagePath": "pages/delivery/delivery",
+        "text": "取快递",
+        "iconPath": "Image/post.jpg",
+        "selectedIconPath": "Image/post.jpg"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "帮打印",
+        "iconPath": "Image/print.jpg",
+        "selectedIconPath": "Image/print.jpg"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "我的中心",
+        "iconPath": "Image/mycenter.jpg",
+        "selectedIconPath": "Image/mycenter.jpg"
+      }
+      
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
