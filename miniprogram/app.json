@@ -13,9 +13,8 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
-    "pages/demo",
-    "pages/demo/demo",
-    "pages/delivery/delivery"
+    "pages/delivery/delivery",
+    "pages/order/order_delivery_big"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -44,13 +43,13 @@
         "selectedIconPath": "Image/post.jpg"
       },
       {
-        "pagePath": "pages/demo/demo",
+        "pagePath": "pages/index/index",
         "text": "帮打印",
         "iconPath": "Image/print.jpg",
         "selectedIconPath": "Image/print.jpg"
       },
       {
-        "pagePath": "pages/demo/demo",
+        "pagePath": "pages/index/index",
         "text": "我的中心",
         "iconPath": "Image/mycenter.jpg",
         "selectedIconPath": "Image/mycenter.jpg"

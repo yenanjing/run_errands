@@ -1,0 +1,45 @@
+<!--miniprogram/pages/order/order_delivery_big.wxml-->
+<scroll-view>
+  <view>
+    <image src="../../Image/big.jpg">
+    </image>
+    <text>
+
+    </text>
+    <text>
+
+    </text>
+  </view>
+  <block>
+
+  </block>
+  <view>
+    <text>数量</text>
+    <view class="stepper">
+	<!-- 减号 -->
+	<text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+	<!-- 数值 -->
+	<input type="number" bindchange="bindManual" value="{{num}}" />
+	<!-- 加号 -->
+	<text class="normal" bindtap="bindPlus">+</text>
+</view>
+  </view>
+  <block>
+
+  </block>
+  <view>
+    <text>姓名</text>
+    <input/>
+    <text>手机号</text>
+    <input/>
+    <text>取件码</text>
+    <input/>
+    <text>宿舍楼号</text>
+    <input/>
+  </view>
+  <block></block>
+  <view>
+    <text>买家留言</text>
+    <input/>
+  </view>
+</scroll-view>

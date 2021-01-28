@@ -1,18 +1,24 @@
 <!--miniprogram/pages/delivery/delivery.wxml-->
 <view>
-      <scroll-view class='listy'>
-        <view class='item' wx:for='{{orderArray}}'>
-          <view class='container-info'>
-            <view class='orderinfo'>
-              <view><text class="roomtype">酒店 1间 {{item.roomType}}</text></view>
-              <view><text class="name">Horiwidgen南京九龙湖店</text></view>
-              <view><text class="time">{{tutil.formatTime(item.startDate)}} 入住 {{tutil.formatTime(item.finishDate)}} 离店</text></view>
-            </view>
-            <view class='container-btn'>
-            <button class='btn1'>详情</button>
-            <button class='btn1'>分享</button>
-            </view>
-          </view>
-        </view>
-      </scroll-view>
+  <scroll-view>
+    <text>大件快递</text>
+    <view>
+      <navigator url="../order/order_delivery_big">
+            <image  src="../../Image/big.jpg" class="side-img" />
+    </navigator>
+    <text> ￥2.00/份</text>
+    <button class="mini-btn" type="default" size="mini">立即下单</button>
+    </view>
+<block></block>
+<view>
+  <text>小件快递</text>
+  <navigator url="">
+            <image  src="../../Image/small.jpg" class="side-img" />
+  </navigator>
+  <text> ￥1.00/份</text> 
+  <button class="mini-btn" type="default" size="mini">立即下单</button>
+</view>
+
+      
+</scroll-view>
 </view>
