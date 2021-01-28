@@ -29,8 +29,7 @@
     "backgroundColor": "#e0e0e0",
     "color": "#444",
     "selectedColor": "#219bf3",
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/index/index",
         "text": "取外卖",
         "iconPath": "Image/food.jpg",
@@ -54,7 +53,7 @@
         "iconPath": "Image/mycenter.jpg",
         "selectedIconPath": "Image/mycenter.jpg"
       }
-      
+
     ]
   },
   "sitemapLocation": "sitemap.json",
